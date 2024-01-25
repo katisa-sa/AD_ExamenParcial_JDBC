@@ -23,7 +23,7 @@ public class TareaEvaluativa4aDelete {
 		
 			System.out.println("Borrando un nuevo Student y en cascada su Tuition asociado");
 			
-			String jpql = "SELECT s FROM Student s WHERE s.id = 2";
+			String jpql = "SELECT s FROM Student s WHERE s.id = 4";
 	        
 			Student tempStudent = entityManager.createQuery(jpql, Student.class)
 	                .getSingleResult();
